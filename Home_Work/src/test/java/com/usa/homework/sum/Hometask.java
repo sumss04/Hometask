@@ -12,6 +12,9 @@ package com.usa.homework.sum;
 	public void income() {
 		System.out.println("10000");
 	}
+	public void home() {
+		System.out.println("Condo");
+	}
 	
 public static void main(String[] args) {
 	
@@ -19,6 +22,8 @@ public static void main(String[] args) {
 	Hometask.salary();
 	Hometask obj =new Hometask();
 	obj.income();
+	Hometask obj1= new Hometask();
+	obj1.home();
 	
 }
 }
