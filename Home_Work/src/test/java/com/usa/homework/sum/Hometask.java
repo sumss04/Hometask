@@ -5,6 +5,10 @@ package com.usa.homework.sum;
 		System.out.println("Bangladesh");
 		return null;	
 	}
+	public static int income1() {
+		System.out.println("500");
+		return 0;
+	}
 	
 	public static void salary(){
 		System.out.println("25000");
@@ -19,11 +23,11 @@ package com.usa.homework.sum;
 public static void main(String[] args) {
 	
 	Hometask.name();
+	Hometask.income1();
 	Hometask.salary();
 	Hometask obj =new Hometask();
 	obj.income();
 	Hometask obj1= new Hometask();
 	obj1.home();
-	
 }
 }
